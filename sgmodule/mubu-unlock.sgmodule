@@ -2,7 +2,7 @@
 #!desc=解锁幕布永久会员
 
 [MITM]
-hostname = api2.mubu.com
+hostname = %APPEND% api2.mubu.com
 
 [Script]
 幕布 Unlock = type=http-response,pattern=https:\/\/api2\.mubu\.com\/v3\/api\/user\/current_user$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Solitude-E/Surge/main/Script/mubu-unlock.js,script-update-interval=0
