@@ -3,7 +3,7 @@
 
 [MITM]
 
-hostname = %APPEND% tagit.hyhuo.com,api2.mubu.com,spclient.wg.spotify.com
+hostname = %APPEND% tagit.hyhuo.com, api2.mubu.com, spclient.wg.spotify.com
 
 [Script]
 
