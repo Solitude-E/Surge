@@ -8,7 +8,7 @@ hostname = %APPEND% tagit.hyhuo.com, api2.mubu.com, spclient.wg.spotify.com
 [Script]
 
 #3.0.2【最高支持版本】
-拦截100 Unlock = type=http-response,pattern=^https?:\/\/tagit\.hyhuo\.com\/cypt\/block100\/get_vip_info$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/Block100SVIPCrack.js,script-update-interval=0
+拦截100 Unlock = type=http-response,pattern=^https?:\/\/tagit\.hyhuo\.com\/cypt\/block100\/get_vip_info$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Solitude-E/Surge/main/Script/Crack/Block100SVIPCrack.js,script-update-interval=0
 
 #解锁永久会员
 幕布 Unlock = type=http-response,pattern=https:\/\/api2\.mubu\.com\/v3\/api\/user\/current_user$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Solitude-E/Surge/main/Script/Crack/MuBu_Unlock.js,script-update-interval=0
