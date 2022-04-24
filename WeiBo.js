@@ -17,12 +17,12 @@ by Macsuny
 ~~~~~~~~~~~~~~~~
 Surge 4.0 :
 [Script]
-weibo.js = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/Solitude-E/Surge/main/WeiBo.JS,script-update-interval=0
+weibo.js = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/Solitude-E/Surge/main/WeiBo.js,script-update-interval=0
 
 # 获取微博 Cookie.
-weibo.js = type=http-request,pattern=https:\/\/api\.weibo\.cn\/\d\/video\/machine\?gsid,script-path=https://raw.githubusercontent.com/Solitude-E/Surge/main/WeiBo.JS
+weibo.js = type=http-request,pattern=https:\/\/api\.weibo\.cn\/\d\/video\/machine\?gsid,script-path=https://raw.githubusercontent.com/Solitude-E/Surge/main/WeiBo.js
 # 微博钱包签到Cookie
-weibo.js = type=http-request,pattern=https:\/\/pay\.sc\.weibo\.com\/aj\/mobile\/home\/welfare\/signin\/do\?,script-path=https://raw.githubusercontent.com/Solitude-E/Surge/main/WeiBo.JS
+weibo.js = type=http-request,pattern=https:\/\/pay\.sc\.weibo\.com\/aj\/mobile\/home\/welfare\/signin\/do\?,script-path=https://raw.githubusercontent.com/Solitude-E/Surge/main/WeiBo.js
 ~~~~~~~~~~~~~~~~
 Loon 2.1.0+
 [Script]
