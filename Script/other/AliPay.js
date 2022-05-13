@@ -40,7 +40,7 @@ function Tool() {
     this.isResponse = typeof $response != "undefined"
     this.notify = (title, subtitle, message, option) => {
         if (_isQuanX) $notify(title, subtitle, message, option)
-        if (_isSurge) $notification.post(title, subtitle, message, option["open-url"])
+        if (_isSurge) $notification.post(title, subtitle, message, option)
         if (_node) console.log(JSON.stringify({ title, subtitle, message }));
     }
     this.write = (value, key) => {
