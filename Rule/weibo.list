@@ -1,0 +1,6 @@
+# > 关于微博IP识别，只需要对以下两个URL过滤分流即可
+
+# >发微博触发IP识别
+URL-REGEX,^https?:\/\/api\.weibo\.cn\/2\/statuses\/send\?
+# >评论触发IP识别
+URL-REGEX,^https?:\/\/api\.weibo\.cn\/2\/comments\/create\?
