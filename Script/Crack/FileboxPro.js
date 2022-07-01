@@ -1,11 +1,11 @@
-
-
+/* 
 [rewrite_local]
 ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$ url script-echo-response https://raw.githubusercontent.com/Solitude-E/Surge/main/Script/Crack/FileboxPro.js
 ^https?:\/\/api\.revenuecat\.com\/v\d\/receipts$ url script-echo-response https://raw.githubusercontent.com/Solitude-E/Surge/main/Script/Crack/FileboxPro.js
 
 [mitm] 
 hostname=api.revenuecat.com
+ */
 
 var Filebox_obj =
     {
@@ -47,4 +47,3 @@ var Filebox_obj =
         }
     };
     $done({ body: JSON.stringify(Filebox_obj) });
-}
