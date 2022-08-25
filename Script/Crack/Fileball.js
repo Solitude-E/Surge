@@ -1,9 +1,11 @@
-#########################################
+/#########################################
+[rewrite_local]
 ^https?://api\.revenuecat\.com/v\d/(subscribers/\$RCAnonymousID\%(\w)+|receipts)$ url echo-response text/json echo-response https://raw.githubusercontent.com/lutqhysky/quantumultx/mylove/Fileball/Script/Fileball.js
+[mitm]
 mimt: api.revenuecat.com
 #
 #
-#########################################
+#########################################/
 {
     "request_date": "1983-03-15T00:00:00Z",
     "request_date_ms": 416505600000,
