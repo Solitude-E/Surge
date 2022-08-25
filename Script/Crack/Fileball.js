@@ -2,7 +2,7 @@
 [rewrite_local]
 ^https?://api\.revenuecat\.com/v\d/(subscribers/\$RCAnonymousID\%(\w)+|receipts)$ url echo-response text/json echo-response https://raw.githubusercontent.com/lutqhysky/quantumultx/mylove/Fileball/Script/Fileball.js
 [mitm]
-mimt: api.revenuecat.com
+hostname = api.revenuecat.com
 #
 #
 #########################################/
